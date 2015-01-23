@@ -1,0 +1,27 @@
+name: TopicMenu
+version: 1.0.0
+description: "A plug-in that constructs an multi-dimensional array of user defined taxonomy"
+icon: newspaper-o
+author:
+  name: Bob Rockefeller
+  email: bob@bobrockefeller.com
+  url: http://www.bobrockefeller.com
+homepage:
+demo:
+keywords: topic, tag, plugin
+bugs:
+license: MIT
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: Plugin Status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
