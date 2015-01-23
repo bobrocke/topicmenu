@@ -6,10 +6,10 @@ author:
   name: Bob Rockefeller
   email: bob@bobrockefeller.com
   url: http://www.bobrockefeller.com
-homepage:
+homepage: https://github.com/bobrocke/topicmenu
 demo:
 keywords: topic, tag, plugin
-bugs:
+bugs: https://github.com/bobrocke/topicmenu
 license: MIT
 
 form:

@@ -2,19 +2,12 @@
 namespace Grav\Plugin;
 
 use \Grav\Common\Plugin;
-use \Grav\Common\Grav;
-use \Grav\Common\Cache;
-use \Grav\Common\Debugger;
-use \Grav\Common\Config\Config;
-use \Grav\Common\Page\Page;
-use \Grav\Common\Page\Pages;
-use RocketTheme\Toolbox\Event\Event;
+
 
 class TopicMenuPlugin extends Plugin
 {
 	protected $topics_tags = [];
 
-	/** @var Config $config */
 	protected $config;
 
 	public static function getSubscribedEvents()
@@ -49,11 +42,8 @@ class TopicMenuPlugin extends Plugin
 	*/
 	public function onPageInitialized()
 	{
-		/** @var Cache $cache */
 		$cache = $this->grav['cache'];
-		/** @var Page $page */
 		$page = $this->grav['page'];
-		/** @var Debugger $debugger */
 		$debugger = $this->grav['debugger'];
 
 		$config = $this->config;
