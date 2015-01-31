@@ -1,4 +1,4 @@
 enabled: true                   # set to false to disable this plugin completely
-page_path: /blog  # set the starting path of the files to traverse
-taxonomy_level_1: topic # set the first level of the taxonomy to use
-taxonomy_level_2: tag # set the first level of the taxonomy to use
+page_path: /blog                # set the starting path of the files to traverse
+taxonomy_level_1: topic         # set the first level of the taxonomy to use
+taxonomy_level_2: tag           # set the first level of the taxonomy to use

@@ -18,9 +18,11 @@ You should now have all the plugin files under
 
 # Usage
 
-The plug-in is enabled by default and will automatically start working. To disable it, copy the `user/plugins/topicmenu/topicmenu.yaml` to `user/config/plugins/topicmenu.yaml` and make your modifications.
+The plug-in is enabled by default and will automatically start working. To configure or disable it, copy the `user/plugins/topicmenu/topicmenu.yaml` to `user/config/plugins/topicmenu.yaml` and make your modifications.
 
 ``` 
-enabled: false                 # global enable/disable the entire plugin
+enabled: true                  # global enable/disable the entire plugin
+page_page: /blog			   # set the starting path of the files to traverse
+taxonomy_level_1: topic        # set the first level of the taxonomy to use
+taxonomy_level_2: tag          # set the first level of the taxonomy to use
 ```
-
